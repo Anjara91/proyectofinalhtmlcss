@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+    .contenedor {
+        height: 6vh;
+        overflow: hidden;
+
+        & span {
+            display: none;
+        }
+
+        & i {
+            font-size: 20px;
+        }
+    }
+
+    .navContenido {
+        flex-direction: column;
+        padding: 0 !important;
+        margin-bottom: 10px;
+    }
+
+    img.hamburguesa {
+        display: flex;
+    }
+
+    div.logo-hamburguesa {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .cuerpo {
+        padding: 0;
+
+        & h1 {
+            width: 89vw;
+            padding: 0;
+            margin-bottom: 100px;
+
+        }
+
+        & h2 {
+            width: 77vw;
+            margin: 0;
+        }
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+        & h2 {
+            margin: auto;
+            padding-top: 20px;
+        }
+    }
+
+    #section1 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .servicioslinea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    & h2 {
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .servicioslinea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
+        & h2 {
+            margin: auto;
+            padding-top: 20px;
+        }
+    }
+
+    .contenedorSeccion {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+        font-size: 15px;
+    }
+    #img{
+        max-width: 60%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+}

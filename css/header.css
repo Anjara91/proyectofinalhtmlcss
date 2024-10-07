@@ -1,0 +1,36 @@
+header {
+    background-color: black;
+    height: 50px;
+    position: relative
+}
+
+.nav.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navMenu ul {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-around;
+    font-family: "Montserrat";
+    font-size: 17px;
+}
+
+.navMenu ul:hover {
+    cursor: pointer;
+}
+
+.navMenu i {
+    color: orangered;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.hamburguesa {
+    width: 50px;
+    display: none;
+}

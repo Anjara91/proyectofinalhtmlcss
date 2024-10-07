@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-top: 90px;
+
+}
+
+span.final:hover {
+    color: orangered;
+}
+
+span.final1:hover {
+    color: orangered;
+}

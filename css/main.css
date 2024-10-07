@@ -1,0 +1,236 @@
+.tittlefondo {
+    font-family: "Handlee", cursive;
+    height: 20px;
+    width: 800px;
+    color: white;
+    font-size: 40px;
+}
+
+.presentacion {
+    font-family: inherit;
+    height: 20px;
+    width: 800px;
+    color: orange;
+    font-size: 20px;
+    color: orangered;
+}
+
+.promo {
+    font-family: inherit;
+    height: 20px;
+    width: 800px;
+    color: white;
+    font-size: 20px;
+}
+
+.boton {
+    padding: 20px 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.boton:hover {
+    background-color: transparent;
+    border: solid orangered;
+    cursor: pointer;
+}
+
+.redes li {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.redes li:hover {
+    transform: scale(1.8);
+    color: orangered;
+    cursor: pointer;
+    transition: 1s;
+}
+
+section.cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 36px;
+    padding-left: 44px;
+    background-image: url(../practica_htmlcss/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+}
+
+.services{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}    
+.servicios {
+    background-color: white;
+    display: flex;
+    font-size: 30px;
+    font-family: "Handlee";
+}
+
+.servicios span {
+    color: orangered;
+}
+
+.underline {
+    position: relative;
+    width: 100px;
+    color: orangered;
+    font-weight: 700;
+    text-align: center;
+}
+
+.underline span {
+    position: relative;
+    bottom: 16px;
+}
+
+section.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+div.icons {
+    color: orangered;
+    border: 1px solid orangered;
+    font-size: 1.25em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.linea-vertical {
+    border-left: 2px solid grey;
+    height: 100%;
+    padding-left: 20px;
+}
+
+a.enlace {
+    color: orangered;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.servicioslinea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.servicios2 {
+    background-color: white;
+    display: flex;
+    font-size: 30px;
+    font-family: "Handlee";
+}
+
+.underline2 {
+    position: relative;
+    width: 100px;
+    color: orangered;
+    font-weight: 700;
+    text-align: center;
+}
+
+.servicios2 span {
+    color: orangered;
+}
+
+.underline2 span {
+    position: relative;
+    bottom: 16px;
+}
+
+
+.contenedorSeccion {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nuestraHistoria {
+    max-width: 30%;
+
+    & h2 {
+        font-family: "Montserrat";
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    & h3 {
+        margin-top: 10px;
+        font-family: "Montserrat";
+        color: orangered;
+        font-size: 15px;
+    }
+
+    & p {
+        margin-bottom: 20px;
+        font-family: "Montserrat";
+        margin-top: 10px;
+    }
+}
+
+.boton2 {
+    padding: 20px 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+
+.boton2:hover {
+    background-color: white;
+    border: solid orangered;
+    cursor: pointer;
+    color: orangered;
+}
+
+.imagen {
+    flex: 1;
+    max-width: 35%;
+    margin-left: 100px;
+}
+
+.marco {
+    border: 3px solid orangered;
+    transform: rotate(20deg);
+    transition: transform 0.3s;
+    width: 100%;
+}
+
+.marco:hover {
+    transform: rotate(0deg);
+}
+
+.marco img {
+    transform: rotate(-20deg);
+    transition: transform 0.3s;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.marco:hover img {
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}

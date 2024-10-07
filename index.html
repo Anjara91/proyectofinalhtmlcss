@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburguesería Rovers</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/mediaqueries.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navMenu">
+        <ul class="contenedor">
+          <li>
+            <i class="fa-solid fa-envelope"></i> <span> rover@gmail.com </span>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone-flip"></i> <span> 91 555 66 77 </span>
+          </li>
+          <li>
+            <i class="fa-solid fa-cart-shopping"></i
+            ><span> Carrito Compra</span>
+          </li>
+          <li><i class="fa-solid fa-user"></i><span> Usuario</span></li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="navContenido">
+      <div class="logo-hamburguesa">
+        <img
+          class="logo"
+          src="../practica_htmlcss/images/logo.jpg"
+          alt="logo"
+        />
+        <img
+          class="hamburguesa"
+          src="data:image/png;base64,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"
+          alt
+          class="hamburguesa"
+        />
+      </div>
+      <a class="link1" href="">Inicio</a>
+      <a class="link" href="">Menú</a>
+      <a class="link" href="">Blog</a>
+      <a class="link" href="">Equipo</a>
+    </nav>
+    <main>
+      <section class="cuerpo">
+        <h1 class="tittlefondo">Las mejores hamburguesas del mundo</h1>
+        <h2 class="presentacion">Bienvenido a nuestra hamburguesería</h2>
+        <h2 class="promo">Come a partir de 15€</h2>
+        <div>
+          <button class="boton">
+            Nuestra Carta <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <ul class="redes">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+      </section>
+
+      <div class="services">
+        <h2 class="servicios">Nuestros <span>Servicios</span></h2>
+        <div class="underline">
+          <hr noshade="noshade" />
+          <span>X</span>
+        </div>
+      </div>
+      <section class="grid" id="section1">
+        <article class="linea-vertical">
+          <div class="icons">
+            <i class="fa-solid fa-cogs"></i>
+          </div>
+          <h3>1. Carne 100% natural</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+            laboriosam mollitia laborum doloribus officia voluptate ducimus
+            voluptatibus quis eligendi consequuntur.
+          </p>
+          <a href="" class="enlace">
+            Leer más
+            <i class="fa-solid fa-long-arrow-alt-right"></i>
+          </a>
+        </article>
+        <article class="linea-vertical">
+          <div class="icons">
+            <i class="fa-solid fa-truck"></i>
+          </div>
+          <h3>2. Cocina moderna</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+            laboriosam mollitia laborum doloribus officia voluptate ducimus
+            voluptatibus quis eligendi consequuntur.
+          </p>
+          <a href="" class="enlace">
+            Leer más
+            <i class="fa-solid fa-long-arrow-alt-right"></i>
+          </a>
+        </article>
+        <article class="linea-vertical">
+          <div class="icons">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <h3>3. Servicio impecable</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+            laboriosam mollitia laborum doloribus officia voluptate ducimus
+            voluptatibus quis eligendi consequuntur.
+          </p>
+          <a href="" class="enlace">
+            Leer más
+            <i class="fa-solid fa-long-arrow-alt-right"></i>
+          </a>
+        </article>
+      </section>
+      <section id="sobrenosotros">
+        <div class="servicioslinea">
+          <h2 class="servicios2">Sobre <span>Nosotros</span></h2>
+          <div class="underline2">
+            <hr noshade="noshade" />
+            <span>X</span>
+          </div>
+        </div>
+
+        <div class="contenedorSeccion">
+          <figure class="imagen" id="img">
+            <div class="marco">
+              <img src="./practica_htmlcss/images/about-main.jpg" alt="" />
+            </div>
+          </figure>
+          <div class="nuestraHistoria">
+            <h2>Nuestra historia</h2>
+            <h3>Nuestro restaurante</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              laboriosam mollitia laborum doloribus officia voluptate ducimus
+              voluptatibus quis eligendi consequuntur.
+            </p>
+            <div>
+              <button class="boton2">
+                Leer más <i class="fa-solid fa-long-arrow-alt-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Copyright©2024 - <span class="final">Aviso Legal</span>-
+      <span class="final1">Cookies</span>
+    </footer>
+  </body>
+</html>
